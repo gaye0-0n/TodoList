@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/dumbo.jpg);
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.container{
+    color: white;
+    padding: 300px;
+}
+.js-clock{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+}
+.greet-zone{
+    text-align: center;
+}
+.js-greetings {
+    text-align: center;
+    margin: 0px;
+    font-size: 25px;
+}
+.js-toDoForm{
+    text-align: center;
+}
+.js-toDoList{
+    text-align: center;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.hiding{
+    display: none; 
+}
+
+.showing{
+    display: block;
+}

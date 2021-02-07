@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>시간을 표시하는 할일 목록</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <!-- 시계 부분 -->
+        <div class="js-clock">
+            <h1>00:00:00</h1>
+        </div>
+        
+        <!-- 인사말 부분 -->
+        <div class="greet-zone">
+            <form class="js-form">
+                <input type="text" placeholder="NAME?" style="height: 30px;">
+            </form>
+            <h2 class="js-greetings"></h2>
+        </div>
+        <br>
+        
+        <!-- 할일 목록 부분 -->
+        <form class="js-toDoForm">
+            <input type="text" placeholder="TO DO?" style="height: 25px;">
+        </form>
+        <ul class="js-toDoList"></ul>
+    </div>
+    
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>
